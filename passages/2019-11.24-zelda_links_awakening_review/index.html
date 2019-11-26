@@ -1,362 +1,259 @@
-<!DOCTYPE html>
-
-<html lang="zh-cn">
-    <head>
+<!DOCTYPE HTML>
+<html>
+<head>
     <meta charset="utf-8">
-    <!--
-        hexo-theme-suka © SukkaW
-        GitHub: https://github.com/SukkaW/hexo-theme-suka
-    -->
-
-    <!-- ### Resource Hint ### -->
-
-    <!-- ## DNS Prefetch ## -->
-    <meta http-equiv="x-dns-prefetch-control" content="on">
-
-<!-- busuanzi -->
-
-    <link rel="dns-prefetch" href="//busuanzi.ibruce.info">
-
-
-<!-- comment -->
-
-
-
-
-
-
-
-<!-- analytics -->
-
-
-
-
-
-
-
-    <!-- ## Preload ## -->
-    
-    <!-- Busuanzi -->
-    
-    <link rel="preload" href="https://cdn.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.js" as="script">
-
-
-
-
-
-
-
-    <!-- ### Meta & Title & Info ### -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, maximum-scale=5, viewport-fit=cover">
-    <meta name="renderer" content="webkit">
-
-    <!-- Title -->
-    <title>梦再美好，也终究会醒来——《织梦岛》给我的美妙体验 | Raine 鱼</title>
-
-    <!-- Favicons -->
-    <link rel="icon" type="image/ico" href="/img/raine-favicon.png"><link rel="icon" typt="image/png" sizes="32x32" href="/img/raine-favicon.ico"><link rel="icon" typt="image/png" sizes="16x16" href="/img/raine-favicon.png">
-
-    <!-- ### Import File ### -->
-    <link rel="stylesheet" href="/lib/spectre/spectre.min.css"><style>
-    body {
-        background-color: #f8f9fa;
-    }
-
-    a, a:visited {
-        color: #0070ff;
-    }
-
-    a:active, a:focus, a:hover {
-        color: #0070ff;
-        opacity: .75;
-    }
-
-    #post-content a,
-    #post-content a:hover,
-    #post-content a:focus,
-    #post-content a:visited {
-        color: #005eb9;
-        opacity: 1;
-    }
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     
 
-    .post-entry .card-body a {
-        color: #0070ff;
-    }
-
-    .avatar {
-        background: #444;
-    }
-
-    .navbar-link,
-    .navbar-link:visited,
-    .timeline .timeline-item .timeline-icon.icon-lg {
-        color: #0070ff;
-    }
-
-    .navbar-link:hover {
-        color: #0070ff;
-        opacity: .8;
-    }
-
-    #search-input .btn,
-    #disqus_click_btn,
-    #disqus-switch-to-direct,
-    #disqus-loadmore-button {
-        background: #727e96;
-        border-color: #727e96;
-        color: #fff;
-    }
-
-    #post-toc a.post-toc-link,
-    #post-toc a.post-toc-link:visited,
-    .share-menu.menu .menu-item>a {
-        color: #727e96;
-    }
-
-    .share-menu.menu .menu-item>a:hover,
-    .share-menu.menu .menu-item>a:focus,
-    .share-menu.menu .menu-item>a:visited {
-        color: #50596c;
-        background: #f8f9fa;
-        opacity: .85;
-    }
-</style><link rel="stylesheet" href="/css/style.min.css">
-
-
-
-
-
-
-
-
-    <!-- Prettify Theme -->
+    <title>梦再美好，也终究会醒来——《织梦岛》给我的美妙体验 | 鱼想问的事，我都知道。</title>
+    <meta name="author" content="Raine Yu">
     
-    <link rel="preload" href="/css/highlight/github.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/css/highlight/github.min.css"></noscript>
-
-
-
-
-
-<script>
-/*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
-!function(t){"use strict";t.loadCSS||(t.loadCSS=function(){});var e=loadCSS.relpreload={};if(e.support=function(){var e;try{e=t.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),e.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},e.poly=function(){if(!e.support())for(var a=t.document.getElementsByTagName("link"),n=0;n<a.length;n++){var o=a[n];"preload"!==o.rel||"style"!==o.getAttribute("as")||o.getAttribute("data-loadcss")||(o.setAttribute("data-loadcss",!0),e.bindMediaToggle(o))}},!e.support()){e.poly();var a=t.setInterval(e.poly,500);t.addEventListener?t.addEventListener("load",function(){e.poly(),t.clearInterval(a)}):t.attachEvent&&t.attachEvent("onload",function(){e.poly(),t.clearInterval(a)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:t.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
-</script>
-
-    <!-- ### Site Verification ### -->
+    <meta name="description" content="《塞尔达传说：织梦岛》是一场短暂的冒险、美妙的梦，梦醒后不免让人感到怅然若失。">
     
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-
-    <meta name="mobile-web-app-capable" content="yes"><meta name="application-name" content="Raine 鱼"><meta name="msapplication-starturl" content="https://yuxiangwende.github.io"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Raine 鱼"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-
-    <!-- ### The Open Graph & Twitter Card Protocol ### -->
-    <meta property="og:title" content="梦再美好，也终究会醒来——《织梦岛》给我的美妙体验 | Raine 鱼"><meta property="og:site_name" content="Raine 鱼"><meta property="og:type" content="article"><meta property="og:url" content="https://yuxiangwende.github.io/passages/2019-11.24-zelda_links_awakening_review/"><meta property="og:locale" content="zh-cn"><meta name="description" content="《塞尔达传说：织梦岛》是一场短暂的冒险、美妙的梦，梦醒后不免让人感到怅然若失。 - yuxiangwende - Raine 鱼"><meta name="keywords" content="随笔, 游戏"><meta property="article:published_time" content="2019-11-24T07:01:13.000Z"><meta property="article:modified_time" content="2019-11-24T07:06:48.680Z"><meta property="og:updated_time" content="2019-11-24T07:06:48.680Z"><meta property="article:author" content="yuxiangwende"><meta property="article:tag" content="随笔, 游戏"><meta name="twitter:card" content="summary">
+    <meta property="og:title" content="梦再美好，也终究会醒来——《织梦岛》给我的美妙体验"/>
+    <meta property="og:site_name" content="Raine 鱼"/>
 
     
-
-    <!-- ### Canonical link ### -->
-    <link rel="canonical" href="https://yuxiangwende.github.io/passages/2019-11.24-zelda_links_awakening_review/">
-
-    <meta name="generator" content="Hexo 4.0.0">
-
-    <!-- ### Analytics ### -->
+    <meta property="og:image" content="https://i.loli.net/2019/11/24/1AVEqeRX93GBWoy.jpg" />
     
 
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="alternate" href="/atom.xml" title="Raine 鱼" type="application/atom+xml">
+    <link rel="stylesheet" href="/css/lib/materialize.min.css">
+    <link rel="stylesheet" href="/css/lib/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
 
-
-
-
-
-
-    <!-- ### Structured Data ### -->
     
-
-
-
-<script type="application/ld+json">
-{
-    "@context": "http://schema.org",
-    "url": "https://yuxiangwende.github.io/passages/2019-11.24-zelda_links_awakening_review/",
-    "@type": "BlogPosting",
-    "logo": "https://yuxiangwende.github.io/img/raine-favicon.ico",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://yuxiangwende.github.io/passages/2019-11.24-zelda_links_awakening_review/"
-    },
-    "headline": "梦再美好，也终究会醒来——《织梦岛》给我的美妙体验 | Raine 鱼",
+        <link rel="stylesheet" href="/css/lib/prettify-tomorrow-night-eighties.css" type="text/css">
     
-    "image": {
-        "@type": "ImageObject",
-        "url": "https://yuxiangwende.github.io/img/raine-favicon.ico"
-    },
-    
-    "datePublished": "2019-11-24T07:01:13.000Z",
-    "dateModified": "2019-11-24T07:06:48.680Z",
-    "author": {
-        "@type": "Person",
-        "name": "yuxiangwende",
-        "image": {
-            "@type": "ImageObject",
-            "url": "https://yuxiangwende.github.io/img/raine_avatar.png"
-        },
-        "description": "鱼想问的事，我都知道,Raine.log("Welcome Here!");"
-    },
-    "publisher": {
-        "@type": "Organization",
-        "name": "Raine 鱼",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "https://yuxiangwende.github.io/img/raine-favicon.ico"
-        }
-    },
-    
-    "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://yuxiangwende.github.io/search?s={search_term_string}",
-        "query-input": "required name=search_term_string"
-    },
-    
-    "keywords": "随笔, 游戏",
-    "description": "《塞尔达传说：织梦岛》是一场短暂的冒险、美妙的梦，梦醒后不免让人感到怅然若失。 - yuxiangwende - Raine 鱼"
-}
-</script>
-
-
-
-    <!-- ### Custom Head ### -->
-    
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 
-    <body>
-            
 
-            <!-- ### Main content ### -->
-            <!-- ## Header ##-->
-<header>
-    <h1 class="header-title text-center"><a href="/">Raine 鱼</a></h1>
+<body>
+    <img src="/weixin_favicon.png" style="position: absolute; left: -9999px; opacity: 0; filter: alpha(opacity=0);">
 
-    <p class="text-center header-slogan">
+    <nav class="Blue lighten-2">
+    <div class="nav-wrapper">
+        <a href="#" data-activates="main-menu" class="button-collapse">
+            <i class="fa fa-navicon"></i>
+        </a>
+        <div class="">
+            <a href="/" class="brand-logo hide-on-med-and-down">Raine 鱼</a>
+            <ul class="right hide-on-med-and-down">
+                
+                    <li>
+                        <a class="menu-home " href="/" >
+                            <i class="fa fa-home "></i>
+                            
+                            menu.主页
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a class="menu-archive " href="/archives" >
+                            <i class="fa fa-archive "></i>
+                            
+                            menu.归档
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a class="menu-category category-menu" href="javascript:;" target="_blank" rel="noopener" data-activates="category-menu" >
+                            <i class="fa fa-bookmark "></i>
+                            
+                            menu.分类
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a class="menu-about " href="/about" >
+                            <i class="fa fa-user "></i>
+                            
+                            menu.关于我
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a class="menu-search modal-trigger " href="#search" >
+                            <i class="fa fa-search "></i>
+                            
+                            Search
+                        </a>
+                    </li>
+                
+            </ul>
+            <div>
+    <ul class="side-nav light-blue darken-1" id="main-menu">
         
-            
-                鱼想问的事，我都知道<br>Raine.log("Welcome Here!");
-            
+        <li class="side-user">
+            <div class="row">
+                <div class="col s4 no-padding">
+                    <img class="avatar-image circle responsive-img" src="http://ww2.sinaimg.cn/small/74990035jw1f1rjkd681bj20rs0rsdhg.jpg" alt="User Avatar">
+                </div>
+                <div class="info col s8 valign-wrapper no-padding">
+                    <div class="valign">
+                        <p class="name">你的大名</p>
+                        <p class="desc">Web前端/iOS/技术宅</p>
+                    </div>
+                </div>
+            </div>
+        </li>
         
-    </p>
 
-    <nav class="navbar-section text-center">
-    
-        <a href="/" class="navbar-link">Home</a>
-    
-    
-        <a href="/archives/" class="navbar-link">Archives</a>
-    
-    
-    
-        <a href="/tags/" class="navbar-link">标签</a>
-    
-        <a href="/about/" class="navbar-link">关于我</a>
-    
-    
-    
-</nav>
-</header>
-
-            
-    <!-- ## Post ## -->
-    <div class="post-container">
-    <div id="post-card" class="card">
         
-        <div class="card-item-container">
-            <div class="card-inner-cell">
-                <!-- # Post Header Info # -->
-                <div class="card-header">
+            <li class="no-padding">
+                <a class="waves-effect menu-home " href="/" >
+                    <i class="fa fa-home "></i>
                     
-    <h1 class="card-title h3 mb-2">梦再美好，也终究会醒来——《织梦岛》给我的美妙体验</h1>
-
-
-
-
-<div class="post-header-info">
-    <p class="post-header-info-left text-gray">
-        <img class="author-thumb lazyload" data-src="/img/raine_avatar.png" src="/img/suka-lazyload.gif" alt="yuxiangwende's Avatar">
-        <span>2019-11-24</span>
+                    menu.主页
+                </a>
+            </li>
         
-            <span class="suka-devide-dot"></span>
-            <a class="category-link" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a>
+            <li class="no-padding">
+                <a class="waves-effect menu-archive " href="/archives" >
+                    <i class="fa fa-archive "></i>
+                    
+                    menu.归档
+                </a>
+            </li>
         
+            <li class="no-padding">
+                <a class="waves-effect menu-category category-menu" href="javascript:;" target="_blank" rel="noopener" data-activates="category-menu" >
+                    <i class="fa fa-bookmark "></i>
+                    
+                    menu.分类
+                </a>
+            </li>
         
-            <!-- Busuanzi Post Views -->
-<span id="busuanzi_container_page_pv" hidden>
-    <span class="suka-devide-dot"></span>
-    <span></span>
-    <span id="busuanzi_value_page_pv"></span>
-    <span>Views</span>
-</span>
+            <li class="no-padding">
+                <a class="waves-effect menu-about " href="/about" >
+                    <i class="fa fa-user "></i>
+                    
+                    menu.关于我
+                </a>
+            </li>
         
+            <li class="no-padding">
+                <a class="waves-effect menu-search modal-trigger " href="#search" >
+                    <i class="fa fa-search "></i>
+                    
+                    Search
+                </a>
+            </li>
         
-    </p>
-    <div class="post-header-info-right">
+    </ul>
+
+    <ul class="side-nav light-blue darken-1" id="category-menu">
+    
+
+            
+
+            <li class="collapse-level-0" collapse-level="0">
+                <a class="no-padding" href="/categories/笔记/">
+                    笔记 <span class="right">2</span></a>
+                </a>
+            </li>
+
         
-            <div class="dropdown dropdown-right">
-<a class="dropdown-toggle" tabindex="0">Share the post</a>
-<ul class="menu share-menu">
-    <!-- Share Weibo -->
-    
-    <li class="menu-item">
-        <a href="http://service.weibo.com/share/share.php?appkey=&title=梦再美好，也终究会醒来——《织梦岛》给我的美妙体验&url=https://yuxiangwende.github.io/passages/2019-11.24-zelda_links_awakening_review/&pic=https://yuxiangwende.github.io/img/raine-favicon.ico&searchPic=false&style=simple" target="_blank" rel="external noopener noreferrer nofollow">Share to Weibo</a>
-    </li>
-    
 
-    <!-- Share Twitter -->
-    
-    <li class="menu-item">
-        <a href="https://twitter.com/intent/tweet?text=梦再美好，也终究会醒来——《织梦岛》给我的美妙体验&url=https://yuxiangwende.github.io/passages/2019-11.24-zelda_links_awakening_review/&via=yuxiangwende" target="_blank" rel="external noopener noreferrer nofollow">Share to Twitter</a>
-    </li>
-    
+            <li class="collapse-level-0" collapse-level="0">
+                <a class="no-padding" href="/categories/分享/">
+                    分享 <span class="right">1</span></a>
+                </a>
+            </li>
 
-    <!-- Share Facebook -->
-    
+        
 
-    <!-- Share Google+ -->
-    
+            <li class="collapse-level-0" collapse-level="0">
+                <a class="no-padding" href="/categories/随笔/">
+                    随笔 <span class="right">5</span></a>
+                </a>
+            </li>
 
-    <!-- Share LinkedIn -->
-    
+        
 
-    <!-- Share QQ -->
-    
-    <li class="menu-item">
-        <a href="http://connect.qq.com/widget/shareqq/index.html?site=Raine 鱼&title=Raine 鱼&summary=&pics=https://yuxiangwende.github.io/img/raine-favicon.ico&url=https://yuxiangwende.github.io/passages/2019-11.24-zelda_links_awakening_review/" target="_blank" rel="external noopener noreferrer nofollow"> Share to QQ</a>
-    </li>
-    
-
-    <!-- Share Telegram -->
-    
-
-    <!-- QRCode -->
-    
-    <li class="menu-item">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAAAAAA83tqdAAACI0lEQVR42u3aS27DMAxF0ex/0+20NSS+S7lFU/N6EiDw5wSIaIrk6+MfHC+RIkWKfAPkqzi+XXD5/nrO6rrrPb5+R54rci5y+addIFfoHbj6gfS5ImcjVwtjhVl9ksWV7r+6p0iR6SYVgATr3Q8VKfJ04VSJAoGJFNlBVgiS5KKHbr6/nQWJfByy2hD95ueP7RZFPgoZi0ZF0K6u2W3kquuOq2oiH4VMyQGB0wRi9zLYJjEiRyJPNlvLZCAkuynJWC42kSORpPjUPYc0BlJhVuRsZCeIk6IBLVAluEiR6Y9OEowq0HcXnMi5yGrzlAAkWHeLViJFVsGXnkMT4k7SIVJkJziTIlcaONkFeZEiyVAIObdTcCCLUORMZCrKk+JAdxOWmq0iZyPpS78T7MkiSgVWkSKrQaM7g0mkqICSXpFjkKmJnoIyLdZ3EhmRIslDaSDuFKxaWZDIUUhSUCWbLII4ajaJHIU8KdynYY+Epz9Q5EwkKQikAboOPg2hiBRJNu6keBoDMxzMiw1QkSOQ3UZoN9GlDX48KCJyBJIWCWghIF2fFphIkWmAkxRLSVEhbcZEikzH6RASDehlg1XkSCQtIqWhdtIEIIuutRET+VgkKaimITra2CTDJiJF0sEjUgCt7kcSC5EiCbJaXJ1BE/pyECmyU7AiLwHatK+GSUSK7GzA7jRAY9NTpMjGi58OhtBhp1YwFzkG+c6HSJEiRf7h8QlTb3bVOxXyiQAAAABJRU5ErkJggg==" alt="QRCode">
-    </li>
-    
-
-</ul>
+    </ul>
 </div>
-        
+
+        </div>
+    </div>
+</nav>
+
+<div id="search" class="modal search-modal">
+    <div class="row">
+        <div class="input-field col s12">
+              <input id="search-input" type="text">
+              <label for="search-input">Search</label>
+        </div>
+
+    </div>
+    <div id="search-result" class="search-result col s12">
+
     </div>
 </div>
-                </div>
-                <div class="card-body">
-                    
-                        
-                        
-                            <div id="post-toc"><ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#梦再美好，也终究会醒来——《织梦岛》给我的美妙体验"><span class="post-toc-number">1.</span> <span class="post-toc-text">梦再美好，也终究会醒来——《织梦岛》给我的美妙体验</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#新玩家能从其中体验什么"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">新玩家能从其中体验什么</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#是梦是醒-难以抉择"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">是梦是醒 难以抉择</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#精巧的迷宫设计"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">精巧的迷宫设计</span></a></li></ol></li></ol></div>
-                        
-                    
-                    <article id="post-content">
-                        <h1 id="梦再美好，也终究会醒来——《织梦岛》给我的美妙体验"><a href="#梦再美好，也终究会醒来——《织梦岛》给我的美妙体验" class="headerlink" title="梦再美好，也终究会醒来——《织梦岛》给我的美妙体验"></a>梦再美好，也终究会醒来——《织梦岛》给我的美妙体验</h1><p>今年年初的任天堂直面会上，最让我兴奋的莫过于《塞尔达传说：织梦岛》重制版的公布。作为一个从《旷野之息》才开始接触任天堂乃至主机游戏的新玩家，对于过去经典作品的了解要么是从老玩家的讨论，或者是通过阅读游戏历史，却总是很难感受这些经典作品的魅力。《织梦岛》的重制给了我回到 1993 年，感受那个时代游戏制作人的想象力和创造力的机会。</p>
+
+
+    <main>
+        <div class="container main-container">
+    <nav class="page-nav hide-on-small-only">
+    <div class="nav-wrapper light-blue">
+        <span class="breadcrumb">Current page(Categories)</span>
+        
+            
+    
+    
+    <a class="breadcrumb" href="/categories/随笔/">随笔</a>
+
+
+        
+
+        
+    </div>
+</nav>
+
+<article>
+    <div class="card">
+        <div class="card-content">
+            
+
+            <div class="article-title">
+                
+    
+        <h1>梦再美好，也终究会醒来——《织梦岛》给我的美妙体验</h1>
+    
+
+
+            </div>
+            <time class="cyan lighten-2-link-context" datetime="2019-11-24T07:01:13.000Z"><a href="/passages/2019-11.24-zelda_links_awakening_review/">2019-11-24</a></time>
+
+            <span id="busuanzi_container_page_pv" class="read-times-container">
+    <i class="fa fa-eye"></i>
+    <span id="busuanzi_value_page_pv"></span>
+</span>
+
+            
+    <div class="tags-row">
+        
+            <a href="/tags/随笔/" class="chip cyan lighten-3">随笔</a>
+        
+            <a href="/tags/游戏/" class="chip cyan lighten-3">游戏</a>
+        
+    </div>
+
+
+            <div class="toc cyan lighten-2-link-context hide-on-med-and-down">
+    <ol class="section table-of-contents"><li class="section table-of-contents-item section table-of-contents-level-1"><a class="section table-of-contents-link" href="#梦再美好，也终究会醒来——《织梦岛》给我的美妙体验"><span class="section table-of-contents-text">梦再美好，也终究会醒来——《织梦岛》给我的美妙体验</span></a><ol class="section table-of-contents-child"><li class="section table-of-contents-item section table-of-contents-level-2"><a class="section table-of-contents-link" href="#新玩家能从其中体验什么"><span class="section table-of-contents-text">新玩家能从其中体验什么</span></a></li><li class="section table-of-contents-item section table-of-contents-level-2"><a class="section table-of-contents-link" href="#是梦是醒-难以抉择"><span class="section table-of-contents-text">是梦是醒 难以抉择</span></a></li><li class="section table-of-contents-item section table-of-contents-level-2"><a class="section table-of-contents-link" href="#精巧的迷宫设计"><span class="section table-of-contents-text">精巧的迷宫设计</span></a></li></ol></li></ol>
+</div>
+
+
+            <div class="entry cyan lighten-2-link-context">
+                <h1 id="梦再美好，也终究会醒来——《织梦岛》给我的美妙体验"><a href="#梦再美好，也终究会醒来——《织梦岛》给我的美妙体验" class="headerlink" title="梦再美好，也终究会醒来——《织梦岛》给我的美妙体验"></a>梦再美好，也终究会醒来——《织梦岛》给我的美妙体验</h1><p>今年年初的任天堂直面会上，最让我兴奋的莫过于《塞尔达传说：织梦岛》重制版的公布。作为一个从《旷野之息》才开始接触任天堂乃至主机游戏的新玩家，对于过去经典作品的了解要么是从老玩家的讨论，或者是通过阅读游戏历史，却总是很难感受这些经典作品的魅力。《织梦岛》的重制给了我回到 1993 年，感受那个时代游戏制作人的想象力和创造力的机会。</p>
 <p>我对于过去的经典作品总是抱着学习和思考的目的，这虽然让我看到了这些经典作品的优秀设计，但也让我从中得到的纯粹的乐趣减少了许多。可能是因为是重制作品的缘故，也可能是任天堂对纯粹乐趣的关注，《塞尔达传说：织梦岛》成为我复习经典游戏作品过程中一个美妙的体验。</p>
 <h2 id="新玩家能从其中体验什么"><a href="#新玩家能从其中体验什么" class="headerlink" title="新玩家能从其中体验什么"></a>新玩家能从其中体验什么</h2><p>我说游玩《塞尔达传说：织梦岛》的体验是美妙的，是因为游戏中的许多元素放到现在一点也不过时。《旷野之息》中你能体验到的那些有趣的东西，很多都能在 20 多年前的《织梦岛》中发现。从用大师剑疯狂割草到用铁铲到处乱挖，从不能惹的咕咕鸡到各种熟悉的敌人，除了这些还有数不清的熟悉的元素。只能说这就是一个有着深厚历史的游戏系列积累下的底蕴。在《任天堂明星大乱斗》尚未问世和游戏联动尚未兴起的年代，《织梦岛》中就已经充满了各种任天堂角色，而且并不会有丝毫的违和感。</p>
 <p>让我感到意外的是，本作作为一款轴侧视角的 2D 游戏，画面和动作都相当优秀。画面上印象最深刻的应该是具有景深和距离感的镜头，感觉就像真的在欣赏一个精美的沙盘。在动作部分的体验上，无论是打击的反馈还是优秀的物理效果，都超出了我对《织梦岛》的期待。</p>
@@ -375,150 +272,318 @@
 <p>这些要素听起来很像现在独立游戏中流行的一种设计——银河恶魔城。事实上也确实如此。《塞尔达传说》的箱庭式设计与银河恶魔城设计确实有着相同的元素，像是连通式地图、技能解锁等。而这两种设计都出自任天堂之手，不得不让人感慨任天堂的超前的游戏设计理念。</p>
 <p>虽然我体验《织梦岛》的时间非常短，在通关后还有大量的内容没有探索，但还是认为《织梦岛》是我今年游玩的游戏中非常美妙的体验，也是我在回顾经典作品的过程中最为愉悦的经历。我也希望以后能有更多的重制作品能有像《织梦岛》一样优秀的质量和一些现代化的处理，让新玩家能够体会经典之所以为经典的原因。</p>
 
-                    </article>
-                    
-    <blockquote class="post-license">
-        <p>
-            <strong>Author&nbsp;:&nbsp;yuxiangwende</strong>
-            <br>
-            <strong>
-            
-                本文使用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)</a> 协议
-            </strong>
-            <br>
-            <strong>Link to this article&nbsp;:&nbsp;</strong><a href="https://yuxiangwende.github.io/passages/2019-11.24-zelda_links_awakening_review/">https://yuxiangwende.github.io/passages/2019-11.24-zelda_links_awakening_review/</a>
-        </p>
-    </blockquote>
+                
 
 
-
-
-<p class="post-footer-info mb-0 pt-0">Published at&nbsp;<time datetime="2019-11-24T07:01:13.000Z" itemprop="datePublished">2019-11-24</time>
-
-</p>
-<p class="post-footer-info mb-0 pt-2">
-
-<span class="post-categories-list mt-2">
-
-<a class="post-categories-list-item" href='/categories/%E9%9A%8F%E7%AC%94/'>随笔</a>
-
-</span>
-
-
-
-<span class="post-tags-list mt-2">
-
-<a class="post-tags-list-item" href="/tags/%E9%9A%8F%E7%AC%94/" rel="tag">#&nbsp;随笔</a>
-
-<a class="post-tags-list-item" href="/tags/%E6%B8%B8%E6%88%8F/" rel="tag">#&nbsp;游戏</a>
-
-</span>
-
-
+<p class="cyan lighten-2-link-context">
+    <a href="/passages/2019-09-12-gears5-review/" rel="next" title="探寻最广阔的锡拉星：《战争机器 5》的继承与突破">
+    Next: 探寻最广阔的锡拉星：《战争机器 5》的继承与突破
+  </a>
 </p>
 
-                </div>
-                <div class="post-nav px-2 bg-gray">
-<ul class="pagination">
-    <!-- Prev Nav -->
-    
 
-    <!-- Next Nav -->
-    
-        <li class="page-item page-next">
-            <a href="/passages/2019-09-12-gears5-review/" rel="next">
-                <div class="page-item-title"><i class="icon icon-forward" aria-hidden="true"></i></div>
-                <div class="page-item-subtitle">探寻最广阔的锡拉星：《战争机器 5》的继承与突破</div>
-            </a>
-        </li>
-    
-</ul>
-</div>
-
-                
-                    <!-- # Comment # -->
-                    
-                
             </div>
+			
         </div>
     </div>
+</article>
+
+
+
+
+
+
 </div>
 
-            <!-- ### Footer ### -->
-            <footer class="text-center">
-    <!-- footer copyright -->
+        <div class="fixed-action-btn float-sitemap">
+    <a class="btn-floating btn-large cyan">
+      <i class="fa fa-caret-square-o-up"></i>
+    </a>
+    <ul>
+      <li><a class="btn-return-top btn-floating waves-effect indigo" title="Return to top"><i class="fa fa-arrow-circle-o-up"></i></a></li>
+      <li><a class="btn-floating waves-effect button-collapse teal"  data-activates="main-menu" title="Menu"><i class="fa fa-navicon"></i></a></li>
+    </ul>
+  </div>
+
+    </main>
+    <footer class="page-footer Blue lighten-2 darken-1">
     
-        <p class="footer-copyright mb-0">Copyright&nbsp;©&nbsp;<span id="copyright-year"></span>
-            <a class="footer-copyright-a" href="https://yuxiangwende.github.io">Raine 鱼</a>
-        </p>
+    <div class="footer-container container">
+        <div class="row">
+            
+            <div class="social-group col m4 s12">
+                <h5 class="white-text">Social</h5>
+                
+                    <a class="social-link" href="http://weibo.com/1956184117" target="_blank">
+                        <i class="fa fa-2x fa-weibo"></i>
+                    </a>
+                
+                    <a class="social-link" href="https://github.com/raytaylorlin" target="_blank">
+                        <i class="fa fa-2x fa-github"></i>
+                    </a>
+                
+                    <a class="social-link" href="/atom.xml" target="_blank">
+                        <i class="fa fa-2x fa-rss"></i>
+                    </a>
+                
+                
 
-    <!-- footer custom text -->
-    <p class="footer-text mb-0">
-    联系我的 <a href="mailto://yuxiangwencc@outlook.com" target="_blank" rel="noopener">Outlook 邮箱</a>
-    </p>
-    <!-- footer develop info -->
-    <p class="footer-develop mb-0">
-        
-    <!-- Busuanzi User Views -->
-    <span id="busuanzi_container_site_uv" hidden>
-        <span></span>
-        <span id="busuanzi_value_site_uv"></span>
-        <span>Viewers</span>
-        
-            <span>|</span>
-        
-    </span>
+            </div>
+            
 
+            
+            <div class="col m8 s12">
+                <h5 class="white-text">Links</h5>
+                
+                    <a class="social-link" href="http://raytaylorlin.com/" target="_blank">raytaylorism主题作者的技术博客</a>
+                
+                    <a class="social-link" href="https://github.com/raytaylorlin" target="_blank">Github地址（测试友情链接）</a>
+                
+            </div>
+            
+        </div>
+    </div>
+    
 
-
-
-        
-        Powered by&nbsp;<!--
-         --><a href="https://hexo.io" target="_blank" class="footer-develop-a" rel="external nofollow noopener noreferrer">Hexo</a><span class="footer-develop-divider"></span>Theme&nbsp;-&nbsp;<!--
-         --><a href="https://github.com/SukkaW/hexo-theme-suka" target="_blank" class="footer-develop-a" rel="external noopener">Suka</a>
-    </p>
+    <div class="footer-copyright cyan lighten-2-link-context">
+        <div class="container">
+            © 2019 Raine Yu, All rights reserved.
+            <p class="right" style="margin-top: 0;">Blog powered by <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> | Theme <a href="https://github.com/raytaylorlin/hexo-theme-raytaylorism" target="_blank" rel="noopener">raytaylorism</a></p>
+        </div>
+    </div>
 </footer>
 
 
-        <!-- ### Import File ### -->
-        <!-- ### Footer JS Import ### -->
+    <noscript>
+    <div class="noscript">
+        <p class="center-align">当前网速较慢或者你使用的浏览器不支持博客特定功能，请尝试刷新或换用Chrome、Firefox等现代浏览器</p>
+    </div>
+</noscript>
+<div class="noscript">
+    <p class="center-align">当前网速较慢或者你使用的浏览器不支持博客特定功能，请尝试刷新或换用Chrome、Firefox等现代浏览器</p>
+</div>
+
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/materialize.min.js"></script>
 
 <script>
+    (function($) {
+        $(document).ready(function() {
+            // 隐藏禁用javascript（针对微信内置浏览器）的提示
+            $('.noscript').hide();
 
-    
-window.lazyLoadOptions = {
-    elements_selector: ".lazyload",
-    threshold: 50
-};
+            // 图片缩放效果
+            var $imgs = $('img').not('.slider-image').not('.avatar-image').not('.carousel-image').not('.card-cover-image').not('.qrcode');
 
-(function() {
-    var copyrightNow = new Date().getFullYear();
-    var copyrightContent = document.getElementById('copyright-year');
-    var copyrightSince = 2019;
-    if (copyrightSince === copyrightNow) {
-        copyrightContent.textContent = copyrightNow;
-    } else {
-        copyrightContent.textContent = copyrightSince + ' - ' + copyrightNow;
-    }
-})();
-console.log('\n %c Suka Theme (hexo-theme-suka) | © SukkaW | Verision 1.3.3 %c https://github.com/SukkaW/hexo-theme-suka \n', 'color: #fff; background: #444; padding:5px 0;', 'background: #bbb; padding:5px 0;');
+            // 给图片加上点击放大效果（materialbox插件）
+            $imgs.addClass('materialboxed').each(function(i, el) {
+                $(this).attr('data-caption', $(this).attr('alt') || ' ');
+            }).materialbox();
 
+            // 优化表格的显示
+            $('table').each(function() {
+                var $table = $(this);
+                // 除去多行代码的情况
+                if ($table.find('pre').length == 0) {
+                    $table.addClass('responsive-table striped bordered');
+                }
+            });
+
+            // 首页幻灯片
+            $('.slider').slider({indicators: true, full_width: true, interval: 8000});
+
+            $(".button-collapse").sideNav();
+            $(".category-menu").sideNav();
+
+            // 针对gallery post
+            $('.carousel').carousel({full_width: true});
+            $('.carousel-control.prev').click(function() {
+                $('.carousel').carousel('prev');
+            });
+            $('.carousel-control.next').click(function() {
+                $('.carousel').carousel('next');
+            });
+
+            // 文章目录
+            $('article').not('.simple-article').find('h1').add('h2').add('h3').add('h4').add('h5').add('h6').scrollSpy();
+
+            // 目录随屏幕滚动（防止目录过长越过footer）
+            var $toc = $('.toc');
+            var scrollTargetTop = 0;
+            $(window).scroll(function() {
+                var $activeLink = $toc.find('a.active.section');
+                if ($(window).scrollTop() < 100) {
+                    scrollTargetTop = 0;
+                } else {
+                    if ($activeLink[0]) {
+                        scrollTargetTop = $activeLink.offset().top - $toc.offset().top;
+                    }
+                }
+                $toc.css('top', '-' + scrollTargetTop + 'px');
+            });
+
+            // 修正文章目录的left-border颜色
+            var color = $('.table-of-contents-text').css('color');
+            $('.table-of-contents-link').css('border-left-color', color);
+
+            // 针对移动端做的优化：FAB按钮点击一下收回
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                $('.fixed-action-btn').addClass('click-to-toggle');
+            }
+            // 回到顶部
+            $('.btn-return-top').click(function() {
+                $('body, html').animate({
+                    scrollTop: 0
+                }, 500);
+            });
+
+            // 重置读书页面的Tab标签页的颜色
+            $('li.tab a').hover(function() {
+                $(this).toggleClass('text-lighten-4');
+            });
+            $('.indicator').addClass('cyan lighten-2');
+
+            
+            // 添加new标签
+            $('.menu-reading, .menu-about').append('<span class="new badge light-blue"></span>');
+            
+
+            // 搜索功能
+            $('.modal-trigger').leanModal({
+                // 打开搜索框时自动聚焦
+                ready: function() {
+                    if ($('#search').is(":visible")) {
+                        $('#search-input').focus();
+                    }
+                }
+            });
+            var searchXml = "";
+            if (searchXml.length == 0) {
+             	searchXml = "search.xml";
+            }
+            var searchPath = "/" + searchXml;
+            initSearch(searchPath, 'search-input', 'search-result');
+        });
+
+        // 初始化搜索与匹配函数
+        var initSearch = function(path, search_id, content_id) {
+            'use strict';
+            $.ajax({
+                url: path,
+                dataType: "xml",
+                success: function(xmlResponse) {
+                    // get the contents from search data
+                    var datas = $("entry", xmlResponse).map(function() {
+                        return {
+                            title: $("title", this).text(),
+                            content: $("content", this).text(),
+                            url: $("url", this).text()
+                        };
+                    }).get();
+                    var $input = document.getElementById(search_id);
+                    var $resultContent = document.getElementById(content_id);
+                    $input.addEventListener('input', function() {
+                        var str = '<ul class=\"search-result-list\">';
+                        var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                        $resultContent.innerHTML = "";
+                        if (this.value.trim().length <= 0) {
+                            return;
+                        }
+                        // perform local searching
+                        datas.forEach(function(data) {
+                            var isMatch = true;
+                            var content_index = [];
+                            var data_title = data.title.trim().toLowerCase();
+                            var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                            var data_url = data.url;
+                            var index_title = -1;
+                            var index_content = -1;
+                            var first_occur = -1;
+                            // only match artiles with not empty titles and contents
+                            if (data_title != '' && data_content != '') {
+                                keywords.forEach(function(keyword, i) {
+                                    index_title = data_title.indexOf(keyword);
+                                    index_content = data_content.indexOf(keyword);
+                                    if (index_title < 0 && index_content < 0) {
+                                        isMatch = false;
+                                    } else {
+                                        if (index_content < 0) {
+                                            index_content = 0;
+                                        }
+                                        if (i == 0) {
+                                            first_occur = index_content;
+                                        }
+                                    }
+                                });
+                            }
+                            // show search results
+                            if (isMatch) {
+                                keywords.forEach(function(keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    data_title = data_title.replace(regS, "<span class=\"search-keyword cyan lighten-2 lighten-2\">" + keyword + "</span>");
+                                });
+
+                                str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                                var content = data.content.trim().replace(/<[^>]+>/g, "");
+                                if (first_occur >= 0) {
+                                    // cut out 100 characters
+                                    var start = first_occur - 20;
+                                    var end = first_occur + 80;
+                                    if (start < 0) {
+                                        start = 0;
+                                    }
+                                    if (start == 0) {
+                                        end = 100;
+                                    }
+                                    if (end > content.length) {
+                                        end = content.length;
+                                    }
+                                    var match_content = content.substring(start, end);
+                                    // highlight all keywords
+                                    keywords.forEach(function(keyword) {
+                                        var regS = new RegExp(keyword, "gi");
+                                        match_content = match_content.replace(regS, "<span class=\"search-keyword cyan lighten-2 lighten-2\">" + keyword + "</span>");
+                                    });
+
+                                    str += "<p class=\"search-result\">..." + match_content + "...</p>"
+                                }
+                                str += "</li>";
+                            }
+                        });
+                        str += "</ul>";
+                        $resultContent.innerHTML = str;
+                    });
+                }
+            });
+        }
+    })(jQuery);
 </script>
 
-<script src="/lib/vanilla-lazyload/lazyload.min.js" async></script>
-    <script src="https://cdn.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.js" async></script>
+
+<script src="/js/prettify.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("pre").addClass("prettyprint");
+        prettyPrint();
+    });
+</script>
 
 
-<!-- Offset -->
 
 
 
 
-<!-- Comment -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+<script type="text/javascript" async
+  src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 
 
-<!-- ### Custom Footer ### -->
 
-    </body>
-
+</body>
 </html>
