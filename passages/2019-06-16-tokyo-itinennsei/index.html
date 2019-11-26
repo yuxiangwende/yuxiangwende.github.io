@@ -55,7 +55,7 @@
     <title>歌曲 東京一年生ーー竹原ピストル | Raine 鱼</title>
 
     <!-- Favicons -->
-    <link rel="icon" type="image/ico" href="/img/suka-favicon.ico">
+    <link rel="icon" type="image/ico" href="/img/raine-favicon.png"><link rel="icon" typt="image/png" sizes="32x32" href="/img/raine-favicon.ico"><link rel="icon" typt="image/png" sizes="16x16" href="/img/raine-favicon.png">
 
     <!-- ### Import File ### -->
     <link rel="stylesheet" href="/lib/spectre/spectre.min.css"><style>
@@ -180,7 +180,7 @@
     "@context": "http://schema.org",
     "url": "https://yuxiangwende.github.io/passages/2019-06-16-tokyo-itinennsei/",
     "@type": "BlogPosting",
-    "logo": "https://yuxiangwende.github.io/img/suka-favicon.ico",
+    "logo": "https://yuxiangwende.github.io/img/raine-favicon.ico",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://yuxiangwende.github.io/passages/2019-06-16-tokyo-itinennsei/"
@@ -189,7 +189,7 @@
     
     "image": {
         "@type": "ImageObject",
-        "url": "https://yuxiangwende.github.io/img/suka-favicon.ico"
+        "url": "https://yuxiangwende.github.io/img/raine-favicon.ico"
     },
     
     "datePublished": "2019-06-16T14:28:28.000Z",
@@ -199,7 +199,7 @@
         "name": "yuxiangwende",
         "image": {
             "@type": "ImageObject",
-            "url": "https://yuxiangwende.github.io/img/default_avatar.png"
+            "url": "https://yuxiangwende.github.io/img/raine_avatar.png"
         },
         "description": "鱼想问的事，我都知道,Raine.log("Welcome Here!");"
     },
@@ -208,7 +208,7 @@
         "name": "Raine 鱼",
         "logo": {
             "@type": "ImageObject",
-            "url": "https://yuxiangwende.github.io/img/suka-favicon.ico"
+            "url": "https://yuxiangwende.github.io/img/raine-favicon.ico"
         }
     },
     
@@ -254,11 +254,9 @@
     
     
     
-        <a href="/about/" class="navbar-link">About</a>
-    
-        <a href="/categories/" class="navbar-link">Categories</a>
-    
         <a href="/tags/" class="navbar-link">Tags</a>
+    
+        <a href="/about/" class="navbar-link">About</a>
     
     
     
@@ -282,7 +280,7 @@
 
 <div class="post-header-info">
     <p class="post-header-info-left text-gray">
-        <img class="author-thumb lazyload" data-src="/img/default_avatar.png" src="/img/suka-lazyload.gif" alt="yuxiangwende's Avatar">
+        <img class="author-thumb lazyload" data-src="/img/raine_avatar.png" src="/img/suka-lazyload.gif" alt="yuxiangwende's Avatar">
         <span>2019-06-16</span>
         
             <span class="suka-devide-dot"></span>
@@ -307,7 +305,7 @@
     <!-- Share Weibo -->
     
     <li class="menu-item">
-        <a href="http://service.weibo.com/share/share.php?appkey=&title=歌曲 東京一年生ーー竹原ピストル&url=https://yuxiangwende.github.io/passages/2019-06-16-tokyo-itinennsei/&pic=https://yuxiangwende.github.io/img/suka-favicon.ico&searchPic=false&style=simple" target="_blank" rel="external noopener noreferrer nofollow">Share to Weibo</a>
+        <a href="http://service.weibo.com/share/share.php?appkey=&title=歌曲 東京一年生ーー竹原ピストル&url=https://yuxiangwende.github.io/passages/2019-06-16-tokyo-itinennsei/&pic=https://yuxiangwende.github.io/img/raine-favicon.ico&searchPic=false&style=simple" target="_blank" rel="external noopener noreferrer nofollow">Share to Weibo</a>
     </li>
     
 
@@ -330,7 +328,7 @@
     <!-- Share QQ -->
     
     <li class="menu-item">
-        <a href="http://connect.qq.com/widget/shareqq/index.html?site=Raine 鱼&title=Raine 鱼&summary=&pics=https://yuxiangwende.github.io/img/suka-favicon.ico&url=https://yuxiangwende.github.io/passages/2019-06-16-tokyo-itinennsei/" target="_blank" rel="external noopener noreferrer nofollow"> Share to QQ</a>
+        <a href="http://connect.qq.com/widget/shareqq/index.html?site=Raine 鱼&title=Raine 鱼&summary=&pics=https://yuxiangwende.github.io/img/raine-favicon.ico&url=https://yuxiangwende.github.io/passages/2019-06-16-tokyo-itinennsei/" target="_blank" rel="external noopener noreferrer nofollow"> Share to QQ</a>
     </li>
     
 
@@ -483,7 +481,7 @@
 
     <!-- footer custom text -->
     <p class="footer-text mb-0">
-    
+    <a href="mailto://yuxiangwencc@outlook.com" target="_blank" rel="noopener">我的 Outlook 邮箱</a>
     </p>
     <!-- footer develop info -->
     <p class="footer-develop mb-0">
@@ -519,7 +517,17 @@ window.lazyLoadOptions = {
     elements_selector: ".lazyload",
     threshold: 50
 };
-document.getElementById('copyright-year').textContent = new Date().getFullYear();
+
+(function() {
+    var copyrightNow = new Date().getFullYear();
+    var copyrightContent = document.getElementById('copyright-year');
+    var copyrightSince = 2019;
+    if (copyrightSince === copyrightNow) {
+        copyrightContent.textContent = copyrightNow;
+    } else {
+        copyrightContent.textContent = copyrightSince + ' - ' + copyrightNow;
+    }
+})();
 console.log('\n %c Suka Theme (hexo-theme-suka) | © SukkaW | Verision 1.3.3 %c https://github.com/SukkaW/hexo-theme-suka \n', 'color: #fff; background: #444; padding:5px 0;', 'background: #bbb; padding:5px 0;');
 
 </script>
