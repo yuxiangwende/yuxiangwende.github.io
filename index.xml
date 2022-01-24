@@ -1,16 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Yuxiangwende</title>
-        <link>http://example.org/</link>
+        <link>https://yuxiangwende.github.io/</link>
         <description>Yuxiangwende</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 23 Jan 2022 23:47:30 &#43;0800</lastBuildDate>
-            <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="https://yuxiangwende.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>First Post</title>
-    <link>http://example.org/posts/first-post/</link>
+    <link>https://yuxiangwende.github.io/posts/first-post/</link>
     <pubDate>Sun, 23 Jan 2022 23:47:30 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>http://example.org/posts/first-post/</guid>
-    <description><![CDATA[First Post 总之是又开始写博客了。]]></description>
+    <guid>https://yuxiangwende.github.io/posts/first-post/</guid>
+    <description><![CDATA[总之是又开始写博客了。]]></description>
 </item></channel>
 </rss>
