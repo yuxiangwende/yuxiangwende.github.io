@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Ayer de Akino</title>
+        <title>阅子的闲时</title>
         <link>https://yuxiangwende.github.io/</link>
-        <description>Ayer de Akino</description>
+        <description>阅子的闲时</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 19 Aug 2022 14:40:58 &#43;0800</lastBuildDate>
             <atom:link href="https://yuxiangwende.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
